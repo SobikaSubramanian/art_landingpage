@@ -1,0 +1,362 @@
+body {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding-right: 10px;
+}
+
+.container .video-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container .video-container .opacity{
+    position: relative;
+    background-color: black;
+    height: 100%;
+    opacity: .5;
+}
+
+.container .video-container .opacity p{
+    position: absolute;
+    top: 15%;
+    color: white;
+    opacity: 1;
+    font-size: 5rem;
+    left: 5%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+.container .video-container .opacity h3{
+    position: absolute;
+    font-size: 4rem;
+    left: 40%;
+    top: 50%;
+    color: black;
+    text-shadow: 5px 5px gray;
+}
+
+.container .video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-bar {
+    display: flex;
+    width: 100vw;
+    height: 40px;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-bar ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 15px;
+    right: 0;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.nav-bar ul li:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-bar .logo {
+    width: 50%;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.nav-bar .logo h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    left: 20%;
+    text-shadow: 2px 2px hotpink;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.row-1 {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+}
+
+.column-11 {
+    width: 50%;
+    padding-left: 40px;
+    height: 100%;
+}
+
+.column-11 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: start;
+    color: white;
+    opacity: .2;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.column-11 .sub {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    font-size: 12px;
+    left: 10%;
+}
+
+.column-12 {
+    width: 50%;
+}
+
+.column-12 .img-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20%;
+    box-shadow: 10px 10px white;
+    border: 1px solid white;
+}
+
+.column-12 .img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.row-2 {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+}
+
+.column-21 {
+    width: 50%;
+    height: 100%;
+}
+
+.column-21 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: start;
+    color: white;
+    opacity: .2;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.column-21 .sub {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    font-size: 12px;
+    left: 10%;
+}
+
+.column-22 {
+    width: 50%;
+}
+
+.column-22 .img-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30%;
+    box-shadow: -10px -10px white;
+    border: 1px solid white;
+}
+.column-22 .img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.row-3 {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+}
+
+.column-31 {
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;
+}
+
+.column-31 .sub {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    font-size: 12px;
+    left: 10%;
+}
+
+.column-31 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: start;
+    color: white;
+    opacity: .2;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.column-32 {
+    width: 50%;
+}
+
+.column-32 .img-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20%;
+    box-shadow: 10px 10px white;
+    border: 1px solid white;
+}
+
+.column-32 .img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row-4 {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+}
+
+.column-42 {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.column-42 .img-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 30%;
+    box-shadow: -10px -10px white;
+    border: 1px solid white;
+}
+
+.column-42 .img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.column-41 {
+    width: 50%;
+    float: left;
+}
+
+.column-41 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: start;
+    color: white;
+    opacity: .2;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.column-41 .sub {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    font-size: 12px;
+    left: 10%;
+}
+
+.row-5 {
+    display: flex;
+    height: 40vh;
+    padding: 30px;
+}
+
+.column-51 {
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;
+}
+
+.column-51 .sub {
+    position: relative;
+    top: 35%;
+    width: 80%;
+    font-size: 12px;
+    left: 10%;
+}
+
+.column-51 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: start;
+    color: white;
+    opacity: .2;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.column-52 {
+    width: 50%;
+}
+
+.column-52 .img-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20%;
+    box-shadow: 10px 10px white;
+    border: 1px solid white;
+}
+
+.column-52 .img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(49, 48, 48);
+}
+footer p:first-child{
+    color:white;
+}
+footer p:last-child{
+    color: white;
+}
+footer p {
+    text-align: center;
+}
